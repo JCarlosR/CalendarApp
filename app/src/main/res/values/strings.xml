@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">CalendarApp</string>
+
+    <!-- General config -->
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="confirm_date">Confirmar fecha</string>
+    <string name="confirm_date_action">OK</string>
+
+    <!-- Panel activity -->
+    <string name="limit_date">Fecha límite</string>
+    <string name="remaining_counter">Faltan {d} días, {h} horas y {m} minutos</string>
+    <string name="show_activity_action">Ver actividad</string>
+    <string name="manage_accounts_action">Gestionar cuenta</string>
+
+    <!-- Manage accounts -->
+    <string name="hint_identity_card">12345678</string>
+    <string name="identity_card">DNI</string>
+    <string name="full_name">Nombres y apellidos</string>
+    <string name="year_text">Año</string>
+    <string name="owes_text">Debe</string>
+    <string name="paid_text">Pagó</string>
 </resources>
