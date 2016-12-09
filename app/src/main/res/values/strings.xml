@@ -8,7 +8,7 @@
 
     <!-- Panel activity -->
     <string name="limit_date">Fecha límite</string>
-    <string name="remaining_counter">Faltan {d} días, {h} horas y {m} minutos</string>
+    <string name="remaining_counter" formatted="false">Faltan %02d días, %02d horas, %02d minutos y %02d segundos</string>
     <string name="show_activity_action">Ver actividad</string>
     <string name="manage_accounts_action">Gestionar cuenta</string>
 
