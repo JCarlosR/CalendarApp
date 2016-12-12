@@ -19,4 +19,5 @@
     <string name="year_text">Año</string>
     <string name="owes_text">Debe</string>
     <string name="paid_text">Pagó</string>
+
 </resources>

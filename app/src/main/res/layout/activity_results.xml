@@ -36,4 +36,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:id="@+id/activity_results_tablelayout"
+        >
+        <TableRow>
+            <TextView
+                android:text="@string/year_text"
+                android:padding="3dip"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:id="@+id/uni1"
+                android:textColor="@color/colorTextTable"/>
+            <TextView
+                android:text="@string/owes_text"
+                android:gravity="center"
+                android:padding="3dip"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorTextTable"/>
+            <TextView
+                android:text="@string/paid_text"
+                android:gravity="center"
+                android:padding="3dip"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorTextTable"/>
+        </TableRow>
+
+
+    </TableLayout>
+
 </LinearLayout>

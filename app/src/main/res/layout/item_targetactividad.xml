@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:layout_marginBottom="5sp"
+    >
+
+    <LinearLayout
+        android:id="@+id/item_actividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/background"
+        android:layout_margin="5sp"
+        android:padding="5sp"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/item_fotoempresa_imgvw_foto"
+            android:layout_width="@dimen/item_foto_width"
+            android:layout_height="@dimen/item_foto_height"
+            android:src="@drawable/actividad"
+            android:contentDescription="@string/confirm_date_action"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/item_txtvw_nombre_actividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_date_action"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/item_txtvw_descripcion_actividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_date_action"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/item_txtvw_fecha_actividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_date_action"
+            android:layout_gravity="center"/>
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

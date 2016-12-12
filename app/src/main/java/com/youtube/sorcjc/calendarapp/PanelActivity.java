@@ -1,9 +1,12 @@
 package com.youtube.sorcjc.calendarapp;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.CountDownTimer;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,7 +15,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+
 public class PanelActivity extends AppCompatActivity implements View.OnClickListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +29,6 @@ public class PanelActivity extends AppCompatActivity implements View.OnClickList
 
         Button btnManageAccount = (Button) findViewById(R.id.btnManageAccount);
         btnManageAccount.setOnClickListener(this);
-
         setupCountDown();
     }
 
